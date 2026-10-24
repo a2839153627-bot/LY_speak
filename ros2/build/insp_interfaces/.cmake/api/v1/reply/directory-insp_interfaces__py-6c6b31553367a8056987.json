@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "insp_interfaces__py",
+		"source" : "/home/smart/LY_speak_ws/ros2/build/insp_interfaces/insp_interfaces__py"
+	}
+}

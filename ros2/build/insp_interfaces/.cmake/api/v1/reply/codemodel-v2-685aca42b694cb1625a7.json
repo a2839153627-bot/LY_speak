@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-43bfc860eda78f5069fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "insp_interfaces__py",
+					"jsonFile" : "directory-insp_interfaces__py-6c6b31553367a8056987.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/smart/LY_speak_ws/ros2/build/insp_interfaces/insp_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "insp_interfaces__rs",
+					"jsonFile" : "directory-insp_interfaces__rs-e93709e5a5bbf8eef4e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/smart/LY_speak_ws/ros2/build/insp_interfaces/insp_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "insp_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_insp_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_insp_interfaces_egg-52587cbde653cc505787.json",
+					"name" : "ament_cmake_python_build_insp_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_insp_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_insp_interfaces-ed2101398fbb991adcb7.json",
+					"name" : "ament_cmake_python_copy_insp_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces-fd9f50f9979191aed2cb.json",
+					"name" : "insp_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__cpp-34806f7732ed523f5dbe.json",
+					"name" : "insp_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "insp_interfaces__py::@c0d7ec2787c14f4b3b2f",
+					"jsonFile" : "target-insp_interfaces__py-8c1c96820662772fffdd.json",
+					"name" : "insp_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_generator_c-d9db3f605872c7bac7d9.json",
+					"name" : "insp_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_generator_py-866520c349c65152980a.json",
+					"name" : "insp_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_c-d3df6be06120d75c6cde.json",
+					"name" : "insp_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_c__pyext-ee8c08f65259d207c3e5.json",
+					"name" : "insp_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_cpp-7f28b73360199365cec7.json",
+					"name" : "insp_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_fastrtps_c-6800b1f4c6c704b0bc11.json",
+					"name" : "insp_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_fastrtps_c__pyext-c5672852587c0793fa9b.json",
+					"name" : "insp_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_fastrtps_cpp-b88f21943c36adc8bb84.json",
+					"name" : "insp_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_introspection_c-a68a663d5742fdf53e37.json",
+					"name" : "insp_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_introspection_c__pyext-8dc874a61a4e481716af.json",
+					"name" : "insp_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces__rosidl_typesupport_introspection_cpp-8d603fdfb5621b2005c4.json",
+					"name" : "insp_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "insp_interfaces__rs::@f96fe323f378aa9d3204",
+					"jsonFile" : "target-insp_interfaces__rs-55278142ac8080451b27.json",
+					"name" : "insp_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insp_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insp_interfaces_uninstall-56073b1aa8c1c25f3477.json",
+					"name" : "insp_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d260892a4a59e75228bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/smart/LY_speak_ws/ros2/build/insp_interfaces",
+		"source" : "/home/smart/LY_speak_ws/ros2/insp_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,7 @@
+nohup: ignoring input
+[ERROR] navigation is already running.
+[INFO] Lock holders:
+                     USER        PID ACCESS COMMAND
+/tmp/ly_robot_navigation.lock:
+                     smart     819765 F.... bash
+                     smart     850236 F.... bash

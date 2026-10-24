@@ -1,0 +1,1 @@
+/home/smart/LY_speak_ws/ros2/build/guide_voice/launch/guide_voice.launch.py

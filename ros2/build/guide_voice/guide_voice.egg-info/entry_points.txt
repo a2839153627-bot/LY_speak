@@ -1,0 +1,4 @@
+[console_scripts]
+tts_python_node = voice.nodes.tts_python_node:main
+tts_sherpa_node = voice.nodes.tts_sherpa_node:main
+

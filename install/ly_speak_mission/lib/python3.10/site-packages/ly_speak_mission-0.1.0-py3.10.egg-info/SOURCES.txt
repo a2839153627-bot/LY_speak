@@ -1,0 +1,16 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../build/ly_speak_mission/ly_speak_mission.egg-info/PKG-INFO
+../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt
+../../build/ly_speak_mission/ly_speak_mission.egg-info/dependency_links.txt
+../../build/ly_speak_mission/ly_speak_mission.egg-info/entry_points.txt
+../../build/ly_speak_mission/ly_speak_mission.egg-info/requires.txt
+../../build/ly_speak_mission/ly_speak_mission.egg-info/top_level.txt
+../../build/ly_speak_mission/ly_speak_mission.egg-info/zip-safe
+ly_speak_mission/__init__.py
+ly_speak_mission/guide_mission_node.py
+ly_speak_mission/navigation_client.py
+ly_speak_mission/voice_client.py
+resource/ly_speak_mission

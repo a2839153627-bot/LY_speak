@@ -1,0 +1,9 @@
+source;share/ly_speak_mission/hook/pythonpath.ps1
+source;share/ly_speak_mission/hook/pythonpath.dsv
+source;share/ly_speak_mission/hook/pythonpath.sh
+source;share/ly_speak_mission/hook/ament_prefix_path.ps1
+source;share/ly_speak_mission/hook/ament_prefix_path.dsv
+source;share/ly_speak_mission/hook/ament_prefix_path.sh
+source;../../build/ly_speak_mission/share/ly_speak_mission/hook/pythonpath_develop.ps1
+source;../../build/ly_speak_mission/share/ly_speak_mission/hook/pythonpath_develop.dsv
+source;../../build/ly_speak_mission/share/ly_speak_mission/hook/pythonpath_develop.sh

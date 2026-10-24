@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (insp_interfaces) JobQueued: {'identifier': 'insp_interfaces', 'dependencies': OrderedDict()}
+[0.000540] (guide_voice) JobQueued: {'identifier': 'guide_voice', 'dependencies': OrderedDict([('insp_interfaces', '/home/smart/LY_speak_ws/ros2/install/insp_interfaces')])}
+[0.000763] (ly_speak_mission) JobQueued: {'identifier': 'ly_speak_mission', 'dependencies': OrderedDict([('insp_interfaces', '/home/smart/LY_speak_ws/ros2/install/insp_interfaces')])}
+[0.000920] (insp_interfaces) JobStarted: {'identifier': 'insp_interfaces'}
+[0.004667] (insp_interfaces) JobProgress: {'identifier': 'insp_interfaces', 'progress': 'cmake'}
+[0.005399] (insp_interfaces) JobProgress: {'identifier': 'insp_interfaces', 'progress': 'build'}
+[0.005930] (insp_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smart/LY_speak_ws/ros2/build/insp_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/smart/LY_speak_ws/ros2/build/insp_interfaces', 'env': OrderedDict([('LANGUAGE', 'zh_CN:en'), ('USER', 'smart'), ('SSH_CLIENT', '192.168.5.20 58602 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/smart'), ('OLDPWD', '/home/smart'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'smart'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '134'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/smart/LY_speak_ws/ros2/build/insp_interfaces'), ('SSH_CONNECTION', '192.168.5.20 58602 192.168.5.29 22'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.053968] (insp_interfaces) StdoutLine: {'line': b'[  2%] Built target insp_interfaces__rs\n'}
+[0.060761] (insp_interfaces) StdoutLine: {'line': b'[ 12%] Built target insp_interfaces__rosidl_generator_c\n'}
+[0.063166] (insp_interfaces) StdoutLine: {'line': b'[ 15%] Built target insp_interfaces__cpp\n'}
+[0.082826] (insp_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_insp_interfaces\n'}
+[0.099918] (-) TimerEvent: {}
+[0.104733] (insp_interfaces) StdoutLine: {'line': b'[ 47%] Built target insp_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.104950] (insp_interfaces) StdoutLine: {'line': b'[ 47%] Built target insp_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.105039] (insp_interfaces) StdoutLine: {'line': b'[ 55%] Built target insp_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.105125] (insp_interfaces) StdoutLine: {'line': b'[ 55%] Built target insp_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.106275] (insp_interfaces) StdoutLine: {'line': b'[ 65%] Built target insp_interfaces__rosidl_typesupport_c\n'}
+[0.106816] (insp_interfaces) StdoutLine: {'line': b'[ 75%] Built target insp_interfaces__rosidl_typesupport_cpp\n'}
+[0.127089] (insp_interfaces) StdoutLine: {'line': b'[ 75%] Built target insp_interfaces\n'}
+[0.143870] (insp_interfaces) StdoutLine: {'line': b'[ 77%] Built target insp_interfaces__py\n'}
+[0.163013] (insp_interfaces) StdoutLine: {'line': b'[ 85%] Built target insp_interfaces__rosidl_generator_py\n'}
+[0.179574] (insp_interfaces) StdoutLine: {'line': b'[ 90%] Built target insp_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.182783] (insp_interfaces) StdoutLine: {'line': b'[ 95%] Built target insp_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.184252] (insp_interfaces) StdoutLine: {'line': b'[100%] Built target insp_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.199992] (-) TimerEvent: {}
+[0.256651] (insp_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.256944] (insp_interfaces) StdoutLine: {'line': b'writing insp_interfaces.egg-info/PKG-INFO\n'}
+[0.257119] (insp_interfaces) StdoutLine: {'line': b'writing dependency_links to insp_interfaces.egg-info/dependency_links.txt\n'}
+[0.257239] (insp_interfaces) StdoutLine: {'line': b'writing top-level names to insp_interfaces.egg-info/top_level.txt\n'}
+[0.258611] (insp_interfaces) StdoutLine: {'line': b"reading manifest file 'insp_interfaces.egg-info/SOURCES.txt'\n"}
+[0.258913] (insp_interfaces) StdoutLine: {'line': b"writing manifest file 'insp_interfaces.egg-info/SOURCES.txt'\n"}
+[0.276337] (insp_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_insp_interfaces_egg\n'}
+[0.282921] (insp_interfaces) CommandEnded: {'returncode': 0}
+[0.283616] (insp_interfaces) JobProgress: {'identifier': 'insp_interfaces', 'progress': 'install'}
+[0.291165] (insp_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smart/LY_speak_ws/ros2/build/insp_interfaces'], 'cwd': '/home/smart/LY_speak_ws/ros2/build/insp_interfaces', 'env': OrderedDict([('LANGUAGE', 'zh_CN:en'), ('USER', 'smart'), ('SSH_CLIENT', '192.168.5.20 58602 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/smart'), ('OLDPWD', '/home/smart'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'smart'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '134'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/smart/LY_speak_ws/ros2/build/insp_interfaces'), ('SSH_CONNECTION', '192.168.5.20 58602 192.168.5.29 22'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.297672] (insp_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.297835] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/ament_index/resource_index/rosidl_interfaces/insp_interfaces\n'}
+[0.297932] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.297989] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.298103] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.298240] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__functions.h\n'}
+[0.298449] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__struct.h\n'}
+[0.298629] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__functions.c\n'}
+[0.298753] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__functions.h\n'}
+[0.299088] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__type_support.h\n'}
+[0.299557] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__type_support.h\n'}
+[0.299717] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__functions.c\n'}
+[0.299890] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__struct.h\n'}
+[0.300764] (-) TimerEvent: {}
+[0.300799] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/speak.h\n'}
+[0.300914] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/recognize_inspection.h\n'}
+[0.301026] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg\n'}
+[0.301068] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.301102] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/library_path.sh\n'}
+[0.301132] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/library_path.dsv\n'}
+[0.301162] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_generator_c.so\n'}
+[0.301191] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.301219] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.301248] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.301281] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__rosidl_typesupport_fastrtps_c.h\n'}
+[0.301309] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_c.h\n'}
+[0.301337] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg\n'}
+[0.301394] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.301455] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.301516] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.301579] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.301639] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.301699] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__type_support.c\n'}
+[0.301760] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__rosidl_typesupport_introspection_c.h\n'}
+[0.301822] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__type_support.c\n'}
+[0.301901] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__rosidl_typesupport_introspection_c.h\n'}
+[0.301965] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg\n'}
+[0.302025] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.302086] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.302147] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_c.so\n'}
+[0.302208] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.302271] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.302334] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.302464] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__struct.hpp\n'}
+[0.302632] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__struct.hpp\n'}
+[0.302722] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__traits.hpp\n'}
+[0.302819] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__traits.hpp\n'}
+[0.302923] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__type_support.hpp\n'}
+[0.303013] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__builder.hpp\n'}
+[0.303094] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__builder.hpp\n'}
+[0.303178] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__type_support.hpp\n'}
+[0.303283] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/recognize_inspection.hpp\n'}
+[0.303362] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/speak.hpp\n'}
+[0.303454] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg\n'}
+[0.303530] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.303613] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.303701] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.303783] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.303864] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/dds_fastrtps\n'}
+[0.303959] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.304044] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.304125] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg\n'}
+[0.304206] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.304287] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.304368] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces\n'}
+[0.304449] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv\n'}
+[0.304530] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail\n'}
+[0.304610] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.304691] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__type_support.cpp\n'}
+[0.304772] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/speak__type_support.cpp\n'}
+[0.304852] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/include/insp_interfaces/insp_interfaces/srv/detail/recognize_inspection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.304967] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.305052] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.305139] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/pythonpath.sh\n'}
+[0.305222] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/pythonpath.dsv\n'}
+[0.305337] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces-0.1.0-py3.10.egg-info\n'}
+[0.305467] (insp_interfaces) StdoutLine: {'line': b'-- Installing: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.305604] (insp_interfaces) StdoutLine: {'line': b'-- Installing: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.305731] (insp_interfaces) StdoutLine: {'line': b'-- Installing: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[0.305866] (insp_interfaces) StdoutLine: {'line': b'-- Installing: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[0.306021] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces\n'}
+[0.306152] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv\n'}
+[0.306282] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv/_recognize_inspection_s.c\n'}
+[0.306465] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv/__init__.py\n'}
+[0.306598] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv/_recognize_inspection.py\n'}
+[0.306726] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv/_speak_s.c\n'}
+[0.306854] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv/_speak.py\n'}
+[0.307008] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/__init__.py\n'}
+[0.307160] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/_insp_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.307310] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/_insp_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.307477] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.307620] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.307813] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/libinsp_interfaces__rosidl_generator_py.so\n'}
+[0.307980] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/_insp_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.308117] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.327105] (insp_interfaces) StdoutLine: {'line': b"Listing '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces'...\n"}
+[0.327296] (insp_interfaces) StdoutLine: {'line': b"Listing '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/srv'...\n"}
+[0.330092] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.330375] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.330649] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages/insp_interfaces/insp_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.330985] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/libinsp_interfaces__rosidl_generator_py.so\n'}
+[0.331310] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/ament_index/resource_index/rust_packages/insp_interfaces\n'}
+[0.331374] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust\n'}
+[0.331416] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/src\n'}
+[0.331453] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/src/srv\n'}
+[0.331885] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/src/srv/rmw.rs\n'}
+[0.332202] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/src/srv.rs\n'}
+[0.332235] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/src/lib.rs\n'}
+[0.332268] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/build.rs\n'}
+[0.332299] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/rust/Cargo.toml\n'}
+[0.332331] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/RecognizeInspection.idl\n'}
+[0.332365] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/Speak.idl\n'}
+[0.332537] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/RecognizeInspection.srv\n'}
+[0.332572] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/RecognizeInspection_Request.msg\n'}
+[0.332606] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/RecognizeInspection_Response.msg\n'}
+[0.332638] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/Speak.srv\n'}
+[0.332673] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/Speak_Request.msg\n'}
+[0.332706] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/srv/Speak_Response.msg\n'}
+[0.332740] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/ament_index/resource_index/package_run_dependencies/insp_interfaces\n'}
+[0.333051] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/ament_index/resource_index/parent_prefix_path/insp_interfaces\n'}
+[0.333420] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/ament_prefix_path.sh\n'}
+[0.334038] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.334130] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/path.sh\n'}
+[0.334237] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/environment/path.dsv\n'}
+[0.334322] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/local_setup.bash\n'}
+[0.334402] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/local_setup.sh\n'}
+[0.334481] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/local_setup.zsh\n'}
+[0.334558] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/local_setup.dsv\n'}
+[0.334635] (insp_interfaces) StdoutLine: {'line': b'-- Installing: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.dsv\n'}
+[0.334712] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/ament_index/resource_index/packages/insp_interfaces\n'}
+[0.334788] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.334883] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.334972] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.335048] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.335122] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.335198] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.335278] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.335354] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.335429] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.335502] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.335682] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.335756] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.335794] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.335868] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.335925] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.335961] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.335992] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/export_insp_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.336023] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.336057] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.336092] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.336133] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.336166] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.336199] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.336230] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.336262] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.336292] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfacesConfig.cmake\n'}
+[0.336335] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/cmake/insp_interfacesConfig-version.cmake\n'}
+[0.336368] (insp_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.xml\n'}
+[0.336645] (insp_interfaces) CommandEnded: {'returncode': 0}
+[0.355484] (insp_interfaces) JobEnded: {'identifier': 'insp_interfaces', 'rc': 0}
+[0.356066] (guide_voice) JobStarted: {'identifier': 'guide_voice'}
+[0.357539] (ly_speak_mission) JobStarted: {'identifier': 'ly_speak_mission'}
+[0.400923] (-) TimerEvent: {}
+[0.501087] (-) TimerEvent: {}
+[0.601254] (-) TimerEvent: {}
+[0.701429] (-) TimerEvent: {}
+[0.801623] (-) TimerEvent: {}
+[0.901823] (-) TimerEvent: {}
+[1.001992] (-) TimerEvent: {}
+[1.038187] (guide_voice) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/smart/LY_speak_ws/ros2/build/guide_voice/build', '--no-deps', 'symlink_data'], 'cwd': '/home/smart/LY_speak_ws/ros2/build/guide_voice', 'env': {'LANGUAGE': 'zh_CN:en', 'USER': 'smart', 'SSH_CLIENT': '192.168.5.20 58602 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/smart', 'OLDPWD': '/home/smart', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'smart', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig', 'XDG_SESSION_ID': '134', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/smart/LY_speak_ws/ros2/build/guide_voice', 'SSH_CONNECTION': '192.168.5.20 58602 192.168.5.29 22', 'LC_NUMERIC': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/smart/LY_speak_ws/ros2/build/guide_voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces'}, 'shell': False}
+[1.071764] (ly_speak_mission) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build', '--no-deps', 'symlink_data'], 'cwd': '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission', 'env': {'LANGUAGE': 'zh_CN:en', 'USER': 'smart', 'SSH_CLIENT': '192.168.5.20 58602 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'ROS_PACKAGE_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/smart', 'OLDPWD': '/home/smart', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'smart', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig', 'XDG_SESSION_ID': '134', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission', 'SSH_CONNECTION': '192.168.5.20 58602 192.168.5.29 22', 'LC_NUMERIC': 'zh_CN.UTF-8', 'PYTHONPATH': '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces'}, 'shell': False}
+[1.102082] (-) TimerEvent: {}
+[1.183396] (guide_voice) StdoutLine: {'line': b'running develop\n'}
+[1.202176] (-) TimerEvent: {}
+[1.210734] (ly_speak_mission) StdoutLine: {'line': b'running develop\n'}
+[1.245810] (guide_voice) StdoutLine: {'line': b'running egg_info\n'}
+[1.246087] (guide_voice) StdoutLine: {'line': b'creating guide_voice.egg-info\n'}
+[1.246212] (guide_voice) StdoutLine: {'line': b'writing guide_voice.egg-info/PKG-INFO\n'}
+[1.246298] (guide_voice) StdoutLine: {'line': b'writing dependency_links to guide_voice.egg-info/dependency_links.txt\n'}
+[1.246381] (guide_voice) StdoutLine: {'line': b'writing entry points to guide_voice.egg-info/entry_points.txt\n'}
+[1.246459] (guide_voice) StdoutLine: {'line': b'writing requirements to guide_voice.egg-info/requires.txt\n'}
+[1.246537] (guide_voice) StdoutLine: {'line': b'writing top-level names to guide_voice.egg-info/top_level.txt\n'}
+[1.246613] (guide_voice) StdoutLine: {'line': b"writing manifest file 'guide_voice.egg-info/SOURCES.txt'\n"}
+[1.247155] (guide_voice) StdoutLine: {'line': b"reading manifest file 'guide_voice.egg-info/SOURCES.txt'\n"}
+[1.247545] (guide_voice) StdoutLine: {'line': b"writing manifest file 'guide_voice.egg-info/SOURCES.txt'\n"}
+[1.248259] (guide_voice) StdoutLine: {'line': b'running build_ext\n'}
+[1.248389] (guide_voice) StdoutLine: {'line': b'Creating /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages/guide-voice.egg-link (link to .)\n'}
+[1.248904] (guide_voice) StdoutLine: {'line': b'Installing tts_python_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/voice\n'}
+[1.249036] (guide_voice) StdoutLine: {'line': b'Installing tts_sherpa_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/voice\n'}
+[1.249260] (guide_voice) StdoutLine: {'line': b'\n'}
+[1.249340] (guide_voice) StdoutLine: {'line': b'Installed /home/smart/LY_speak_ws/ros2/build/guide_voice\n'}
+[1.249415] (guide_voice) StdoutLine: {'line': b'running symlink_data\n'}
+[1.249490] (guide_voice) StdoutLine: {'line': b'creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index\n'}
+[1.249564] (guide_voice) StdoutLine: {'line': b'creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index\n'}
+[1.249638] (guide_voice) StdoutLine: {'line': b'creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index/packages\n'}
+[1.249713] (guide_voice) StderrLine: {'line': b"error: can't copy '/home/smart/LY_speak_ws/ros2/build/guide_voice/resource/guide_voice': doesn't exist or not a regular file\n"}
+[1.268487] (guide_voice) CommandEnded: {'returncode': 1}
+[1.268881] (guide_voice) JobEnded: {'identifier': 'guide_voice', 'rc': 1}
+[1.275400] (ly_speak_mission) StdoutLine: {'line': b'running egg_info\n'}
+[1.275575] (ly_speak_mission) StdoutLine: {'line': b'writing ly_speak_mission.egg-info/PKG-INFO\n'}
+[1.275753] (ly_speak_mission) StdoutLine: {'line': b'writing dependency_links to ly_speak_mission.egg-info/dependency_links.txt\n'}
+[1.275837] (ly_speak_mission) StdoutLine: {'line': b'writing entry points to ly_speak_mission.egg-info/entry_points.txt\n'}
+[1.275922] (ly_speak_mission) StdoutLine: {'line': b'writing requirements to ly_speak_mission.egg-info/requires.txt\n'}
+[1.276009] (ly_speak_mission) StdoutLine: {'line': b'writing top-level names to ly_speak_mission.egg-info/top_level.txt\n'}
+[1.276741] (ly_speak_mission) StdoutLine: {'line': b"reading manifest file 'ly_speak_mission.egg-info/SOURCES.txt'\n"}
+[1.277116] (ly_speak_mission) StdoutLine: {'line': b"writing manifest file 'ly_speak_mission.egg-info/SOURCES.txt'\n"}
+[1.277877] (ly_speak_mission) StdoutLine: {'line': b'running build_ext\n'}
+[1.277995] (ly_speak_mission) StdoutLine: {'line': b'Creating /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages/ly-speak-mission.egg-link (link to .)\n'}
+[1.278434] (ly_speak_mission) StdoutLine: {'line': b'Installing guide_mission_node script to /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission\n'}
+[1.278591] (ly_speak_mission) StdoutLine: {'line': b'\n'}
+[1.278695] (ly_speak_mission) StdoutLine: {'line': b'Installed /home/smart/LY_speak_ws/ros2/build/ly_speak_mission\n'}
+[1.278772] (ly_speak_mission) StdoutLine: {'line': b'running symlink_data\n'}
+[1.293731] (ly_speak_mission) JobEnded: {'identifier': 'ly_speak_mission', 'rc': 'SIGINT'}
+[1.302251] (-) TimerEvent: {}
+[1.304189] (-) EventReactorShutdown: {}

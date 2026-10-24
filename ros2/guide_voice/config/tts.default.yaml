@@ -1,0 +1,15 @@
+guide_tts_node:
+  ros__parameters:
+    # USB 喇叭（ALSA card Device）。使用卡名而不是 card 编号，避免
+    # 主板音频或 USB 摄像头插拔后编号变化。
+    audio_device: "plughw:CARD=Device,DEV=0"
+    player: "aplay"
+    # 喇叭开声有延迟，前置静音避免开头吞字。按实测缺字已调到 500。
+    lead_silence_ms: 500
+    tail_silence_ms: 80
+    # persistent_cache_texts 不写（代码默认 []）：
+    # 讲解任务没有巡检那套固定播报短语，不启用永久缓存；
+    # 讲解词走 guide 缓存目录（前端「保存并生成音频」预生成的 wav），
+    # 其他动态播报合成后用完即删。
+    # ⚠️ 千万别写 "persistent_cache_texts: []" —— ROS2 yaml 解析把空数组
+    # 当成"参数未设置"盖掉默认值，节点启动直接崩（2026-10-24 踩坑）。

@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/ly_speak_mission/ly_speak_mission.egg-info
+writing ../../build/ly_speak_mission/ly_speak_mission.egg-info/PKG-INFO
+writing dependency_links to ../../build/ly_speak_mission/ly_speak_mission.egg-info/dependency_links.txt
+writing entry points to ../../build/ly_speak_mission/ly_speak_mission.egg-info/entry_points.txt
+writing requirements to ../../build/ly_speak_mission/ly_speak_mission.egg-info/requires.txt
+writing top-level names to ../../build/ly_speak_mission/ly_speak_mission.egg-info/top_level.txt
+writing manifest file '../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt'
+reading manifest file '../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt'
+writing manifest file '../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/smart/LY_speak_ws/build/ly_speak_mission/build
+creating /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib
+creating /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission
+copying ly_speak_mission/navigation_client.py -> /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission
+copying ly_speak_mission/__init__.py -> /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission
+copying ly_speak_mission/guide_mission_node.py -> /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission
+copying ly_speak_mission/voice_client.py -> /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission
+running install
+running install_lib
+creating /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission
+copying /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission/navigation_client.py -> /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission
+copying /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission/__init__.py -> /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission
+copying /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission/guide_mission_node.py -> /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission
+copying /home/smart/LY_speak_ws/build/ly_speak_mission/build/lib/ly_speak_mission/voice_client.py -> /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission
+byte-compiling /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission/navigation_client.py to navigation_client.cpython-310.pyc
+byte-compiling /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission/guide_mission_node.py to guide_mission_node.cpython-310.pyc
+byte-compiling /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission/voice_client.py to voice_client.cpython-310.pyc
+running install_data
+creating /home/smart/LY_speak_ws/install/ly_speak_mission/share/ament_index
+creating /home/smart/LY_speak_ws/install/ly_speak_mission/share/ament_index/resource_index
+creating /home/smart/LY_speak_ws/install/ly_speak_mission/share/ament_index/resource_index/packages
+copying resource/ly_speak_mission -> /home/smart/LY_speak_ws/install/ly_speak_mission/share/ament_index/resource_index/packages
+copying package.xml -> /home/smart/LY_speak_ws/install/ly_speak_mission/share/ly_speak_mission
+running install_egg_info
+Copying ../../build/ly_speak_mission/ly_speak_mission.egg-info to /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission-0.1.0-py3.10.egg-info
+running install_scripts
+Installing guide_mission_node script to /home/smart/LY_speak_ws/install/ly_speak_mission/lib/ly_speak_mission
+writing list of installed files to '/home/smart/LY_speak_ws/build/ly_speak_mission/install.log'

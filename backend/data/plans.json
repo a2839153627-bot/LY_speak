@@ -1,0 +1,45 @@
+{
+  "nextId": 9,
+  "rows": [
+    {
+      "id": 1,
+      "planName": "一楼展厅地图 讲解方案",
+      "mapId": 1,
+      "mapName": "一楼展厅地图",
+      "status": 1,
+      "remark": "系统自动创建，用于收纳历史讲解点",
+      "createTime": "2026-10-08 20:46:55",
+      "updateTime": "2026-10-08 20:46:55"
+    },
+    {
+      "id": 2,
+      "planName": "二楼会议室地图 讲解方案",
+      "mapId": 2,
+      "mapName": "二楼会议室地图",
+      "status": 0,
+      "remark": "系统自动创建，用于收纳历史讲解点",
+      "createTime": "2026-10-08 20:46:55",
+      "updateTime": "2026-10-08 20:57:46"
+    },
+    {
+      "id": 7,
+      "planName": "2233",
+      "mapId": 5,
+      "mapName": "三楼123456",
+      "status": 0,
+      "remark": "",
+      "createTime": "2026-10-08 21:20:58",
+      "updateTime": "2026-10-08 21:22:08"
+    },
+    {
+      "id": 8,
+      "planName": "123",
+      "mapId": 6,
+      "mapName": "44",
+      "status": 1,
+      "remark": "",
+      "createTime": "2026-10-08 21:26:26",
+      "updateTime": "2026-10-08 21:26:26"
+    }
+  ]
+}

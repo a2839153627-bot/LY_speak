@@ -1,0 +1,21 @@
+[0.537s] Invoking command in '/home/smart/LY_speak_ws/ros2/ly_speak_mission': PYTHONPATH=/home/smart/LY_speak_ws/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ly_speak_mission build --build-base /home/smart/LY_speak_ws/build/ly_speak_mission/build install --record /home/smart/LY_speak_ws/build/ly_speak_mission/install.log --install-scripts $base/lib/ly_speak_mission --single-version-externally-managed install_data
+[0.760s] running egg_info
+[0.760s] writing ../../build/ly_speak_mission/ly_speak_mission.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ../../build/ly_speak_mission/ly_speak_mission.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../../build/ly_speak_mission/ly_speak_mission.egg-info/entry_points.txt
+[0.761s] writing requirements to ../../build/ly_speak_mission/ly_speak_mission.egg-info/requires.txt
+[0.761s] writing top-level names to ../../build/ly_speak_mission/ly_speak_mission.egg-info/top_level.txt
+[0.762s] reading manifest file '../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/ly_speak_mission/ly_speak_mission.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] running install
+[0.763s] running install_lib
+[0.764s] running install_data
+[0.764s] running install_egg_info
+[0.765s] removing '/home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission-0.1.0-py3.10.egg-info' (and everything under it)
+[0.765s] Copying ../../build/ly_speak_mission/ly_speak_mission.egg-info to /home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages/ly_speak_mission-0.1.0-py3.10.egg-info
+[0.766s] running install_scripts
+[0.784s] Installing guide_mission_node script to /home/smart/LY_speak_ws/install/ly_speak_mission/lib/ly_speak_mission
+[0.784s] writing list of installed files to '/home/smart/LY_speak_ws/build/ly_speak_mission/install.log'
+[0.800s] Invoked command in '/home/smart/LY_speak_ws/ros2/ly_speak_mission' returned '0': PYTHONPATH=/home/smart/LY_speak_ws/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/install/ly_speak_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ly_speak_mission build --build-base /home/smart/LY_speak_ws/build/ly_speak_mission/build install --record /home/smart/LY_speak_ws/build/ly_speak_mission/install.log --install-scripts $base/lib/ly_speak_mission --single-version-externally-managed install_data

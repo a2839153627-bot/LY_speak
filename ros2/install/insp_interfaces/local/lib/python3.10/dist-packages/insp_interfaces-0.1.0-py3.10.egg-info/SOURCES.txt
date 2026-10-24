@@ -1,0 +1,9 @@
+setup.py
+insp_interfaces/__init__.py
+insp_interfaces.egg-info/PKG-INFO
+insp_interfaces.egg-info/SOURCES.txt
+insp_interfaces.egg-info/dependency_links.txt
+insp_interfaces.egg-info/top_level.txt
+insp_interfaces/srv/__init__.py
+insp_interfaces/srv/_recognize_inspection.py
+insp_interfaces/srv/_speak.py

@@ -1,0 +1,48 @@
+[INFO] [launch]: All log files can be found below /home/smart/.ros/log/2026-10-24-14-13-17-359399-smart-VM61-18354
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [tts_python_node-1]: process started with pid [18370]
+[tts_python_node-1] /usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+[tts_python_node-1]   warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+[tts_python_node-1] [INFO] [1792822398.260183376] [guide_tts_node]: Loading vocab & lexicon...
+[tts_python_node-1] [INFO] [1792822398.338336995] [guide_tts_node]: Vocab: 2189, Lexicon: 68037
+[tts_python_node-1] [INFO] [1792822398.338718508] [guide_tts_node]: Loading ONNX models...
+[tts_python_node-1] [INFO] [1792822399.236776081] [guide_tts_node]: Models ready
+[tts_python_node-1] [INFO] [1792822399.240080680] [guide_tts_node]: PythonTtsNode ready, persistent_cache_texts=0
+[tts_python_node-1] Traceback (most recent call last):
+[tts_python_node-1]   File "/home/smart/LY_speak_ws/ros2/build/voice/voice/nodes/tts_python_node.py", line 861, in main
+[tts_python_node-1]     rclpy.spin(node)
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[tts_python_node-1]     executor.spin_once()
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[tts_python_node-1]     self._spin_once_impl(timeout_sec)
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[tts_python_node-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[tts_python_node-1]     return next(self._cb_iter)
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[tts_python_node-1]     raise ExternalShutdownException()
+[tts_python_node-1] rclpy.executors.ExternalShutdownException
+[tts_python_node-1] 
+[tts_python_node-1] During handling of the above exception, another exception occurred:
+[tts_python_node-1] 
+[tts_python_node-1] Traceback (most recent call last):
+[tts_python_node-1]   File "/home/smart/LY_speak_ws/ros2/install/voice/lib/voice/tts_python_node", line 33, in <module>
+[tts_python_node-1]     sys.exit(load_entry_point('voice', 'console_scripts', 'tts_python_node')())
+[tts_python_node-1]   File "/home/smart/LY_speak_ws/ros2/build/voice/voice/nodes/tts_python_node.py", line 866, in main
+[tts_python_node-1]     rclpy.shutdown()
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[tts_python_node-1]     _shutdown(context=context)
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[tts_python_node-1]     return context.shutdown()
+[tts_python_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[tts_python_node-1]     self.__context.shutdown()
+[tts_python_node-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [tts_python_node-1]: process has died [pid 18370, exit code 1, cmd '/home/smart/LY_speak_ws/ros2/install/voice/lib/voice/tts_python_node --ros-args -r __node:=guide_tts_node --params-file /home/smart/LY_speak_ws/ros2/install/voice/share/voice/config/tts.default.yaml --params-file /tmp/launch_params_s1opyzrm'].
+[INFO] [tts_python_node-1]: process started with pid [20300]
+[tts_python_node-1] /usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+[tts_python_node-1]   warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+[tts_python_node-1] [INFO] [1792822802.814130988] [guide_tts_node]: Loading vocab & lexicon...
+[tts_python_node-1] [INFO] [1792822802.902512154] [guide_tts_node]: Vocab: 2189, Lexicon: 68037
+[tts_python_node-1] [INFO] [1792822802.902787746] [guide_tts_node]: Loading ONNX models...
+[tts_python_node-1] [INFO] [1792822803.698847400] [guide_tts_node]: Models ready
+[tts_python_node-1] [INFO] [1792822803.702176519] [guide_tts_node]: PythonTtsNode ready, persistent_cache_texts=0

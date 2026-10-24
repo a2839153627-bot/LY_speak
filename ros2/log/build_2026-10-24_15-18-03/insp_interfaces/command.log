@@ -1,0 +1,4 @@
+Invoking command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces': /usr/bin/cmake --build /home/smart/LY_speak_ws/ros2/build/insp_interfaces -- -j16 -l16
+Invoked command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces' returned '0': /usr/bin/cmake --build /home/smart/LY_speak_ws/ros2/build/insp_interfaces -- -j16 -l16
+Invoking command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces': /usr/bin/cmake --install /home/smart/LY_speak_ws/ros2/build/insp_interfaces
+Invoked command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces' returned '0': /usr/bin/cmake --install /home/smart/LY_speak_ws/ros2/build/insp_interfaces

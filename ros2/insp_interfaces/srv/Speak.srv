@@ -1,0 +1,5 @@
+string text
+bool interrupt_current
+---
+bool accepted
+string message

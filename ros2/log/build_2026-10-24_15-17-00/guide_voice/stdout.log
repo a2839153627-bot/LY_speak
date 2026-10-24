@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating guide_voice.egg-info
+writing guide_voice.egg-info/PKG-INFO
+writing dependency_links to guide_voice.egg-info/dependency_links.txt
+writing entry points to guide_voice.egg-info/entry_points.txt
+writing requirements to guide_voice.egg-info/requires.txt
+writing top-level names to guide_voice.egg-info/top_level.txt
+writing manifest file 'guide_voice.egg-info/SOURCES.txt'
+reading manifest file 'guide_voice.egg-info/SOURCES.txt'
+writing manifest file 'guide_voice.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages/guide-voice.egg-link (link to .)
+Installing tts_python_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/voice
+Installing tts_sherpa_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/voice
+
+Installed /home/smart/LY_speak_ws/ros2/build/guide_voice
+running symlink_data
+creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index
+creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index
+creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index/packages

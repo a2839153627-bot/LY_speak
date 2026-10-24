@@ -1,0 +1,90 @@
+{
+  "nextId": 7,
+  "rows": [
+    {
+      "id": 1,
+      "mapName": "一楼展厅地图",
+      "robotName": "导览机器人01",
+      "mapFile": "",
+      "pointCount": 3,
+      "status": 0,
+      "remark": "一楼展厅主运行地图",
+      "createTime": "2026-10-01 09:30:00",
+      "updateTime": "2026-10-19 20:44:01",
+      "pgmFile": "maps/1791460731_102_1787809752765.pgm",
+      "yamlFile": "maps/1792219192_map.yaml",
+      "chargeX": 14.488,
+      "chargeY": 7.739,
+      "chargeAngle": 90,
+      "keepoutZones": [
+        [
+          {
+            "x": 13.386,
+            "y": -5.121
+          },
+          {
+            "x": 13.125,
+            "y": -2.38
+          },
+          {
+            "x": 13.386,
+            "y": -4.991
+          }
+        ],
+        [
+          {
+            "x": 18.93,
+            "y": 9.198
+          },
+          {
+            "x": 19.233,
+            "y": 5.856
+          },
+          {
+            "x": 18.973,
+            "y": 9.241
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "mapName": "二楼会议室地图",
+      "robotName": "导览机器人02",
+      "mapFile": "",
+      "pointCount": 1,
+      "status": 0,
+      "remark": "二楼会议室区域，待发布",
+      "createTime": "2026-10-05 14:20:00",
+      "updateTime": "2026-10-08 19:57:34",
+      "pgmFile": "maps/1791460590_102_1787809752765.pgm",
+      "yamlFile": "maps/1791460637_102_1787809752765.yaml"
+    },
+    {
+      "id": 5,
+      "mapName": "三楼123456",
+      "robotName": "1233",
+      "mapFile": "",
+      "pgmFile": "maps/1791461078_102_1787809752765.pgm",
+      "yamlFile": "maps/1791462152_102_1787809752765.yaml",
+      "pointCount": 0,
+      "status": 1,
+      "remark": "三楼\n",
+      "createTime": "2026-10-08 20:04:49",
+      "updateTime": "2026-10-08 20:28:50"
+    },
+    {
+      "id": 6,
+      "mapName": "44",
+      "robotName": "12",
+      "mapFile": "",
+      "pgmFile": "maps/1791465969_102_1787809752765.pgm",
+      "yamlFile": "maps/1791465973_102_1787809752765.yaml",
+      "pointCount": 0,
+      "status": 0,
+      "remark": "",
+      "createTime": "2026-10-08 21:26:15",
+      "updateTime": "2026-10-08 21:26:15"
+    }
+  ]
+}

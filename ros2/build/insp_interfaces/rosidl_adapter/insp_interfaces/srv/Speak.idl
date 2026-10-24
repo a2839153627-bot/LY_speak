@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from insp_interfaces/srv/Speak.srv
+// generated code does not contain a copyright notice
+
+
+module insp_interfaces {
+  module srv {
+    struct Speak_Request {
+      string text;
+
+      boolean interrupt_current;
+    };
+    struct Speak_Response {
+      boolean accepted;
+
+      string message;
+    };
+  };
+};

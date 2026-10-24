@@ -1,0 +1,29 @@
+[0.884s] Invoking command in '/home/smart/LY_speak_ws/ros2/build/guide_voice': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/guide_voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/guide_voice/build --no-deps symlink_data
+[1.046s] running develop
+[1.128s] running egg_info
+[1.128s] creating guide_voice.egg-info
+[1.128s] writing guide_voice.egg-info/PKG-INFO
+[1.128s] writing dependency_links to guide_voice.egg-info/dependency_links.txt
+[1.128s] writing entry points to guide_voice.egg-info/entry_points.txt
+[1.128s] writing requirements to guide_voice.egg-info/requires.txt
+[1.129s] writing top-level names to guide_voice.egg-info/top_level.txt
+[1.129s] writing manifest file 'guide_voice.egg-info/SOURCES.txt'
+[1.131s] reading manifest file 'guide_voice.egg-info/SOURCES.txt'
+[1.131s] writing manifest file 'guide_voice.egg-info/SOURCES.txt'
+[1.133s] running build_ext
+[1.133s] Creating /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages/guide-voice.egg-link (link to .)
+[1.134s] Installing tts_python_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/guide_voice
+[1.134s] Installing tts_sherpa_node script to /home/smart/LY_speak_ws/ros2/install/guide_voice/lib/guide_voice
+[1.135s] 
+[1.135s] Installed /home/smart/LY_speak_ws/ros2/build/guide_voice
+[1.135s] running symlink_data
+[1.135s] creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index
+[1.135s] creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index
+[1.135s] creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index/packages
+[1.135s] symbolically linking /home/smart/LY_speak_ws/ros2/build/guide_voice/resource/guide_voice -> /home/smart/LY_speak_ws/ros2/install/guide_voice/share/ament_index/resource_index/packages
+[1.135s] symbolically linking /home/smart/LY_speak_ws/ros2/build/guide_voice/package.xml -> /home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice
+[1.136s] creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/launch
+[1.136s] symbolically linking /home/smart/LY_speak_ws/ros2/build/guide_voice/launch/guide_voice.launch.py -> /home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/launch
+[1.136s] creating /home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/config
+[1.136s] symbolically linking /home/smart/LY_speak_ws/ros2/build/guide_voice/config/tts.default.yaml -> /home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/config
+[1.155s] Invoked command in '/home/smart/LY_speak_ws/ros2/build/guide_voice' returned '0': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/guide_voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/guide_voice/build --no-deps symlink_data

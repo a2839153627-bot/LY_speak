@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ly_speak_mission</name>
+  <version>0.1.0</version>
+  <description>LY_Guide 讲解任务执行节点：按方案顺序导航到讲解点，到达即播报，完成后返回充电点</description>
+  <maintainer email="smart@example.com">smart</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <!-- /voice/speak 服务类型来自 LY_inspect_ws，仅运行时依赖（缺失时自动退回 ros2 CLI 调用） -->
+  <exec_depend>insp_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

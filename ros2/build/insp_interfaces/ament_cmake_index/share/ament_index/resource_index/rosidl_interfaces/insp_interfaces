@@ -1,0 +1,8 @@
+srv/RecognizeInspection.idl
+srv/RecognizeInspection.srv
+srv/RecognizeInspection_Request.msg
+srv/RecognizeInspection_Response.msg
+srv/Speak.idl
+srv/Speak.srv
+srv/Speak_Request.msg
+srv/Speak_Response.msg

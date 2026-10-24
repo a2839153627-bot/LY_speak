@@ -1,0 +1,29 @@
+[0.942s] Invoking command in '/home/smart/LY_speak_ws/ros2/build/voice': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/voice/build --no-deps symlink_data
+[1.113s] running develop
+[1.226s] running egg_info
+[1.226s] creating voice.egg-info
+[1.226s] writing voice.egg-info/PKG-INFO
+[1.226s] writing dependency_links to voice.egg-info/dependency_links.txt
+[1.226s] writing entry points to voice.egg-info/entry_points.txt
+[1.226s] writing requirements to voice.egg-info/requires.txt
+[1.226s] writing top-level names to voice.egg-info/top_level.txt
+[1.226s] writing manifest file 'voice.egg-info/SOURCES.txt'
+[1.227s] reading manifest file 'voice.egg-info/SOURCES.txt'
+[1.227s] writing manifest file 'voice.egg-info/SOURCES.txt'
+[1.228s] running build_ext
+[1.228s] Creating /home/smart/LY_speak_ws/ros2/install/voice/lib/python3.10/site-packages/voice.egg-link (link to .)
+[1.229s] Installing tts_python_node script to /home/smart/LY_speak_ws/ros2/install/voice/lib/voice
+[1.229s] Installing tts_sherpa_node script to /home/smart/LY_speak_ws/ros2/install/voice/lib/voice
+[1.229s] 
+[1.229s] Installed /home/smart/LY_speak_ws/ros2/build/voice
+[1.229s] running symlink_data
+[1.230s] creating /home/smart/LY_speak_ws/ros2/install/voice/share/ament_index
+[1.230s] creating /home/smart/LY_speak_ws/ros2/install/voice/share/ament_index/resource_index
+[1.230s] creating /home/smart/LY_speak_ws/ros2/install/voice/share/ament_index/resource_index/packages
+[1.230s] symbolically linking /home/smart/LY_speak_ws/ros2/build/voice/resource/voice -> /home/smart/LY_speak_ws/ros2/install/voice/share/ament_index/resource_index/packages
+[1.230s] symbolically linking /home/smart/LY_speak_ws/ros2/build/voice/package.xml -> /home/smart/LY_speak_ws/ros2/install/voice/share/voice
+[1.230s] creating /home/smart/LY_speak_ws/ros2/install/voice/share/voice/launch
+[1.230s] symbolically linking /home/smart/LY_speak_ws/ros2/build/voice/launch/robot_voice.launch.py -> /home/smart/LY_speak_ws/ros2/install/voice/share/voice/launch
+[1.230s] creating /home/smart/LY_speak_ws/ros2/install/voice/share/voice/config
+[1.230s] symbolically linking /home/smart/LY_speak_ws/ros2/build/voice/config/tts.default.yaml -> /home/smart/LY_speak_ws/ros2/install/voice/share/voice/config
+[1.250s] Invoked command in '/home/smart/LY_speak_ws/ros2/build/voice' returned '0': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/voice/build --no-deps symlink_data

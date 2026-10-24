@@ -1,0 +1,48 @@
+[INFO] [1792575267.041010029] [guide_mission_node]: 讲解任务执行节点就绪（/ly_speak_mission/start 可触发，run_mode=auto, auto_start=True, dry_run=True）
+[INFO] [1792575267.186563414] [guide_mission_node]: 已发布禁区 2 个（mask 129x294 @0.05m）
+[INFO] [1792575267.186791634] [guide_mission_node]: dry_run 模式：跳过导航，点位虚拟到达
+[INFO] [1792575273.072749572] [guide_mission_node]: 语音播报结束(等待 5.9s, state=end, gen=1)
+[INFO] [1792575273.073298598] [guide_mission_node]: == 开始讲解任务 方案[一楼展厅地图 讲解方案] 点位 4 个，充电点 {'name': '充电点', 'x': 14.488, 'y': 7.739, 'angle': 90.0} ==
+[INFO] [1792575273.073780283] [guide_mission_node]: [1/4] 前往 智能拆码垛与机器人自动化展示区 (20.709, 7.809, 0.0°)
+[INFO] [1792575279.725444558] [guide_mission_node]: 语音播报结束(等待 6.7s, state=end, gen=2)
+[INFO] [1792575279.725708186] [guide_mission_node]: [DRY-RUN] 虚拟到达 
+[INFO] [1792575280.729653432] [guide_mission_node]: 已到达 智能拆码垛与机器人自动化展示区
+[INFO] [1792575307.795214555] [guide_mission_node]: 语音播报结束(等待 27.1s, state=end, gen=3)
+[INFO] [1792575307.795725445] [guide_mission_node]: [2/4] 前往 技术迭代历程展示区 (17.902, -0.803, 0.0°)
+[INFO] [1792575313.065266747] [guide_mission_node]: 语音播报结束(等待 5.3s, state=end, gen=4)
+[INFO] [1792575313.065604348] [guide_mission_node]: [DRY-RUN] 虚拟到达 
+[INFO] [1792575314.070066727] [guide_mission_node]: 已到达 技术迭代历程展示区
+[INFO] [1792575334.718788670] [guide_mission_node]: 语音播报结束(等待 20.6s, state=end, gen=5)
+[INFO] [1792575334.719103335] [guide_mission_node]: [3/4] 前往 激光视觉核心功能展示区 (15.208, -0.758, 180.0°)
+[INFO] [1792575340.521512975] [guide_mission_node]: 语音播报结束(等待 5.8s, state=end, gen=6)
+[INFO] [1792575340.522571665] [guide_mission_node]: [DRY-RUN] 虚拟到达 
+[INFO] [1792575341.527930989] [guide_mission_node]: 已到达 激光视觉核心功能展示区
+[INFO] [1792575365.582680867] [guide_mission_node]: 语音播报结束(等待 24.1s, state=end, gen=7)
+[INFO] [1792575365.583143983] [guide_mission_node]: [4/4] 前往 典型焊接工件与应用展示区 (18.344, -7.228, 0.0°)
+[INFO] [1792575371.871701763] [guide_mission_node]: 语音播报结束(等待 6.3s, state=end, gen=8)
+[INFO] [1792575371.872239539] [guide_mission_node]: [DRY-RUN] 虚拟到达 
+[INFO] [1792575372.876771222] [guide_mission_node]: 已到达 典型焊接工件与应用展示区
+[INFO] [1792575399.039660355] [guide_mission_node]: 语音播报结束(等待 26.2s, state=end, gen=9)
+[INFO] [1792575399.040628159] [guide_mission_node]: 所有讲解点位执行完毕，返回充电点
+[INFO] [1792575404.190049275] [guide_mission_node]: 语音播报结束(等待 5.1s, state=end, gen=10)
+[INFO] [1792575404.190626440] [guide_mission_node]: [DRY-RUN] 虚拟到达 充电点
+[INFO] [1792575405.195310117] [guide_mission_node]: 已到达充电点，任务完成
+[INFO] [1792575409.549004892] [guide_mission_node]: 语音播报结束(等待 4.4s, state=end, gen=11)
+Traceback (most recent call last):
+  File "/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission/guide_mission_node", line 33, in <module>
+    sys.exit(load_entry_point('ly-speak-mission', 'console_scripts', 'guide_mission_node')())
+  File "/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/ly_speak_mission/guide_mission_node.py", line 654, in main
+    node.run()
+  File "/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/ly_speak_mission/guide_mission_node.py", line 154, in run
+    rclpy.spin_once(self, timeout_sec=0.1)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 208, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

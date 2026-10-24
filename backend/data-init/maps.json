@@ -1,0 +1,61 @@
+{
+  "nextId": 7,
+  "rows": [
+    {
+      "id": 1,
+      "mapName": "一楼展厅地图",
+      "robotName": "导览机器人01",
+      "mapFile": "",
+      "pointCount": 3,
+      "status": 0,
+      "remark": "一楼展厅主运行地图",
+      "createTime": "2026-10-01 09:30:00",
+      "updateTime": "2026-10-08 19:59:02",
+      "pgmFile": "maps/1791460731_102_1787809752765.pgm",
+      "yamlFile": "maps/1791460741_102_1787809752765.yaml",
+      "chargeX": 18.52,
+      "chargeY": 1.0,
+      "chargeAngle": -94,
+      "keepoutZones": []
+    },
+    {
+      "id": 2,
+      "mapName": "二楼会议室地图",
+      "robotName": "导览机器人02",
+      "mapFile": "",
+      "pointCount": 1,
+      "status": 0,
+      "remark": "二楼会议室区域，待发布",
+      "createTime": "2026-10-05 14:20:00",
+      "updateTime": "2026-10-08 19:57:34",
+      "pgmFile": "maps/1791460590_102_1787809752765.pgm",
+      "yamlFile": "maps/1791460637_102_1787809752765.yaml"
+    },
+    {
+      "id": 5,
+      "mapName": "三楼123456",
+      "robotName": "1233",
+      "mapFile": "",
+      "pgmFile": "maps/1791461078_102_1787809752765.pgm",
+      "yamlFile": "maps/1791462152_102_1787809752765.yaml",
+      "pointCount": 0,
+      "status": 1,
+      "remark": "三楼\n",
+      "createTime": "2026-10-08 20:04:49",
+      "updateTime": "2026-10-08 20:28:50"
+    },
+    {
+      "id": 6,
+      "mapName": "44",
+      "robotName": "12",
+      "mapFile": "",
+      "pgmFile": "maps/1791465969_102_1787809752765.pgm",
+      "yamlFile": "maps/1791465973_102_1787809752765.yaml",
+      "pointCount": 0,
+      "status": 0,
+      "remark": "",
+      "createTime": "2026-10-08 21:26:15",
+      "updateTime": "2026-10-08 21:26:15"
+    }
+  ]
+}

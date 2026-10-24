@@ -1,0 +1,57 @@
+[INFO] [1792813054.093702083] [guide_mission_node]: 讲解任务执行节点就绪（/ly_speak_mission/start 可触发，run_mode=remote, auto_start=True, dry_run=False）
+[INFO] [1792813054.094528307] [guide_mission_node]: 遥控手动模式就绪：B=开始任务，A=下一个点位，C=重播当前讲解，D=急停
+[INFO] [1792813054.095426596] [guide_mission_node]: 遥控按键监听已启动：/dev/input/event7
+[INFO] [1792813055.037745359] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[INFO] [1792813055.548774837] [guide_mission_node]: 禁区已生效：代价图禁区格点致命 730 格
+[INFO] [1792813061.473431968] [guide_mission_node]: 语音播报结束(等待 5.9s, state=end, gen=19)
+[INFO] [1792813061.473710205] [guide_mission_node]: == 遥控模式开始 方案[一楼展厅地图 讲解方案] 点位 4 个，充电点 {'name': '充电点', 'x': 14.488, 'y': 7.739, 'angle': 90.0} ==
+[INFO] [1792813061.574346859] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813061.674934707] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813061.775662253] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813061.876254183] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813061.976873898] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813062.077592837] [guide_mission_node]: 任务已在进行中，B 键忽略
+[INFO] [1792813062.178497685] [guide_mission_node]: 遥控前往 [1/4] 智能拆码垛与机器人自动化展示区
+[WARN] [1792813067.597207600] [guide_mission_node]: 语音等待被急停打断（已请求的句子会自然播完）
+[WARN] [1792813067.599583349] [guide_mission_node]: 导航失败 : aborted remote abort
+[WARN] [1792813067.600199773] [guide_mission_node]: 任务已紧急停止
+[WARN] [1792813067.602350441] [guide_mission_node]: 语音等待被急停打断（已请求的句子会自然播完）
+[INFO] [1792813068.019111771] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813068.023315855] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813068.024138804] [guide_mission_node]: 任务开始前已急停，放弃启动
+[INFO] [1792813068.567283056] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813068.573337066] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813068.574200930] [guide_mission_node]: 任务开始前已急停，放弃启动
+[INFO] [1792813069.242803354] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813069.247699488] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813069.249468486] [guide_mission_node]: 任务开始前已急停，放弃启动
+[INFO] [1792813069.250817002] [guide_mission_node]: 任务未在运行，D 键忽略
+[INFO] [1792813145.004230831] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813145.008006459] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813145.008514707] [guide_mission_node]: 任务开始前已急停，放弃启动
+[INFO] [1792813146.516172909] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813146.521283549] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813146.521850561] [guide_mission_node]: 任务开始前已急停，放弃启动
+[INFO] [1792813147.104142944] [guide_mission_node]: 已发布禁区 2 个（mask 1404x1582 @0.05000000074505806m）
+[WARN] [1792813147.109489304] [guide_mission_node]: 禁区自检被急停打断
+[WARN] [1792813147.110134457] [guide_mission_node]: 任务开始前已急停，放弃启动
+Traceback (most recent call last):
+  File "/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission/guide_mission_node", line 33, in <module>
+    sys.exit(load_entry_point('ly-speak-mission', 'console_scripts', 'guide_mission_node')())
+  File "/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/ly_speak_mission/guide_mission_node.py", line 834, in main
+    
+  File "/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/ly_speak_mission/guide_mission_node.py", line 151, in run
+    self._run_remote()
+  File "/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/ly_speak_mission/guide_mission_node.py", line 173, in _run_remote
+    rclpy.spin_once(self, timeout_sec=0.1)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 208, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

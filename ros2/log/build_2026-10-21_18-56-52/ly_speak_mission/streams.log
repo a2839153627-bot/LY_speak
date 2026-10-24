@@ -1,0 +1,17 @@
+[1.057s] Invoking command in '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission': PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build --no-deps symlink_data
+[1.295s] running develop
+[1.432s] running egg_info
+[1.432s] writing ly_speak_mission.egg-info/PKG-INFO
+[1.432s] writing dependency_links to ly_speak_mission.egg-info/dependency_links.txt
+[1.432s] writing entry points to ly_speak_mission.egg-info/entry_points.txt
+[1.432s] writing requirements to ly_speak_mission.egg-info/requires.txt
+[1.432s] writing top-level names to ly_speak_mission.egg-info/top_level.txt
+[1.433s] reading manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+[1.434s] writing manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+[1.435s] running build_ext
+[1.435s] Creating /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages/ly-speak-mission.egg-link (link to .)
+[1.436s] Installing guide_mission_node script to /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission
+[1.436s] 
+[1.436s] Installed /home/smart/LY_speak_ws/ros2/build/ly_speak_mission
+[1.436s] running symlink_data
+[1.455s] Invoked command in '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission' returned '0': PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build --no-deps symlink_data

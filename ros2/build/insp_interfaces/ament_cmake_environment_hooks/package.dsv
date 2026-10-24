@@ -1,0 +1,4 @@
+source;share/insp_interfaces/local_setup.bash
+source;share/insp_interfaces/local_setup.dsv
+source;share/insp_interfaces/local_setup.sh
+source;share/insp_interfaces/local_setup.zsh

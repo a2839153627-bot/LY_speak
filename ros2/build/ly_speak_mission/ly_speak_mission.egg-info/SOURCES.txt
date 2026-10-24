@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+ly_speak_mission/__init__.py
+ly_speak_mission/guide_mission_node.py
+ly_speak_mission/navigation_client.py
+ly_speak_mission/remote_input.py
+ly_speak_mission/voice_client.py
+ly_speak_mission.egg-info/PKG-INFO
+ly_speak_mission.egg-info/SOURCES.txt
+ly_speak_mission.egg-info/dependency_links.txt
+ly_speak_mission.egg-info/entry_points.txt
+ly_speak_mission.egg-info/requires.txt
+ly_speak_mission.egg-info/top_level.txt
+ly_speak_mission.egg-info/zip-safe
+resource/ly_speak_mission

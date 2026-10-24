@@ -1,0 +1,136 @@
+"""遥控器按键读取：雷柏 Knight22 无线遥控（USB HID，被内核识别为键盘）。
+
+遥控上的 A/B/C/D 四个键发的是**数字键 1/2/3/4**（Linux 按键码
+KEY_1=2 / KEY_2=3 / KEY_3=4 / KEY_4=5，2026-10-20 在真机上抓包确认）。
+
+后台线程以 O_RDONLY | O_NONBLOCK 打开 /dev/input/eventN 解析 input_event
+结构（只读，不触发任何动作），把"按下"事件（EV_KEY 且 value==1，长按
+自动重复 value==2 丢弃）放进线程安全队列，供任务节点主循环轮询。
+
+急停键（D）在**读线程里直接置 abort_event**：任务节点导航/播报的等待
+循环里都在轮询这个事件（abort_check 回调），这样即使主循环正阻塞在
+导航等待里，急停也能立即打断，而不是等按键被主循环处理。
+
+读 /dev/input 需要 root 或 input 组权限。机器人上的放权方式（udev 规则
++ 把运行用户加入 input 组，见 deploy/udev/99-remote-remote.rules）：
+
+    KERNEL=="event*", ATTRS{idVendor}=="24ae", ATTRS{idProduct}=="2013",
+    MODE="0664", GROUP="input"
+
+没配权限时这里会报出明确错误日志（节点照常启动，只是收不到按键）。
+"""
+
+from __future__ import annotations
+
+import glob
+import os
+import queue
+import select
+import struct
+import threading
+
+EV_KEY = 1
+
+# x86_64 的 struct input_event：秒(long) 微秒(long) type(ushort)
+# code(ushort) value(int) = 24 字节
+EVENT_FMT = "llHHi"
+EVENT_SIZE = struct.calcsize(EVENT_FMT)
+
+
+class RemoteKeyReader:
+    """读遥控按键的后台线程；get_press() 非阻塞取一次按键码。"""
+
+    def __init__(self, node, device_name: str, event_no: int, abort_code: int):
+        self._node = node
+        self._device_name = device_name
+        self._event_no = event_no
+        self._abort_code = abort_code
+        self._queue: queue.Queue = queue.Queue()
+        # 急停标志：读线程在 D 键按下的瞬间置位，主循环/等待循环随时可见
+        self.abort_event = threading.Event()
+        self._thread = None
+        self.device_path = None
+
+    def start(self) -> bool:
+        """找到设备并启动读线程；找不到设备返回 False。"""
+        self.device_path = self._find_device()
+        if self.device_path is None:
+            self._node.get_logger().error(
+                f"未找到遥控设备（名字包含 {self._device_name!r} 的 /dev/input 设备），"
+                "遥控按键不可用"
+            )
+            return False
+        self._thread = threading.Thread(target=self._run, daemon=True, name="remote-key")
+        self._thread.start()
+        return True
+
+    def get_press(self):
+        """非阻塞取一个按键码，没有则返回 None。"""
+        try:
+            return self._queue.get_nowait()
+        except queue.Empty:
+            return None
+
+    def _find_device(self):
+        if self._event_no > 0:
+            return f"/dev/input/event{self._event_no}"
+        names = sorted(glob.glob("/sys/class/input/event*/device/name"))
+        # 包含匹配，取名字最短的那个接口：USB 复合设备的键盘接口名字
+        # 不带后缀（如 "Knight22 USB DEVICE"），System Control / Consumer
+        # Control / Mouse 接口都带更长后缀。数字键只发在键盘接口上，
+        # 按字母序取第一个会错选 System Control（2026-10-24 实锤事故）。
+        best, best_len = None, None
+        for name_file in names:
+            try:
+                with open(name_file, encoding="utf-8", errors="replace") as f:
+                    name = f.read().strip()
+            except OSError:
+                continue
+            if self._device_name in name and (best is None or len(name) < best_len):
+                best, best_len = name_file, len(name)
+        if best is None:
+            return None
+        return "/dev/input/" + os.path.basename(
+            os.path.dirname(os.path.dirname(best))
+        )
+
+    def _run(self):
+        fd = None
+        try:
+            fd = os.open(self.device_path, os.O_RDONLY | os.O_NONBLOCK)
+        except PermissionError:
+            self._node.get_logger().error(
+                f"无权限读 {self.device_path}：请确认运行用户已加入 input 组"
+                "且 udev 规则已生效（重新插拔遥控或重启）"
+            )
+            return
+        except OSError as exc:
+            self._node.get_logger().error(f"打开遥控设备失败 {self.device_path}: {exc}")
+            return
+        self._node.get_logger().info(f"遥控按键监听已启动：{self.device_path}")
+        disconnected = False
+        while True:  # daemon 线程，节点退出时随进程结束
+            ready, _, _ = select.select([fd], [], [], 0.5)
+            if not ready:
+                continue
+            try:
+                data = os.read(fd, EVENT_SIZE * 16)
+            except OSError:
+                if not disconnected:
+                    self._node.get_logger().warn("遥控设备读取失败（可能被拔掉），继续重试")
+                    disconnected = True
+                continue
+            disconnected = False
+            for i in range(0, len(data) - EVENT_SIZE + 1, EVENT_SIZE):
+                _sec, _usec, etype, code, value = struct.unpack(
+                    EVENT_FMT, data[i : i + EVENT_SIZE]
+                )
+                if etype != EV_KEY:
+                    continue
+                if value == 0:  # 松开
+                    continue
+                if value == 2:  # 长按自动重复，忽略（避免误触发多次）
+                    continue
+                self._queue.put(code)
+                if code == self._abort_code:
+                    self.abort_event.set()

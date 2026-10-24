@@ -1,0 +1,3 @@
+[console_scripts]
+guide_mission_node = ly_speak_mission.guide_mission_node:main
+

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ly_speak_mission.egg-info/PKG-INFO
+writing dependency_links to ly_speak_mission.egg-info/dependency_links.txt
+writing entry points to ly_speak_mission.egg-info/entry_points.txt
+writing requirements to ly_speak_mission.egg-info/requires.txt
+writing top-level names to ly_speak_mission.egg-info/top_level.txt
+reading manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+writing manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages/ly-speak-mission.egg-link (link to .)
+Installing guide_mission_node script to /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission
+
+Installed /home/smart/LY_speak_ws/ros2/build/ly_speak_mission
+running symlink_data

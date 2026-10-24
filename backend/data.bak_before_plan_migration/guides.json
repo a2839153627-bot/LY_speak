@@ -1,0 +1,69 @@
+{
+  "nextId": 7,
+  "rows": [
+    {
+      "id": 1,
+      "mapId": 1,
+      "mapName": "一楼展厅地图",
+      "pointName": "入口迎宾点",
+      "x": -7.437,
+      "y": 1.004,
+      "angle": 90,
+      "stayTime": 30,
+      "content": "欢迎各位来宾参观，我是本次的导览机器人，请跟随我一起参观展厅。",
+      "audioUrl": "",
+      "status": 1,
+      "sort": 1,
+      "createTime": "2026-10-01 10:00:00",
+      "updateTime": "2026-10-08 20:02:57"
+    },
+    {
+      "id": 2,
+      "mapId": 1,
+      "mapName": "一楼展厅地图",
+      "pointName": "产品展示区",
+      "x": 0.232,
+      "y": 4.183,
+      "angle": 180,
+      "stayTime": 60,
+      "content": "这里是产品展示区，陈列了公司最新的智能机器人产品线。",
+      "audioUrl": "",
+      "status": 1,
+      "sort": 2,
+      "createTime": "2026-10-01 10:10:00",
+      "updateTime": "2026-10-08 20:03:01"
+    },
+    {
+      "id": 3,
+      "mapId": 1,
+      "mapName": "一楼展厅地图",
+      "pointName": "休息区",
+      "x": 1.812,
+      "y": 1.857,
+      "angle": 0,
+      "stayTime": 15,
+      "content": "前方是休息区，参观结束后可以在此休息。",
+      "audioUrl": "",
+      "status": 1,
+      "sort": 3,
+      "createTime": "2026-10-01 10:20:00",
+      "updateTime": "2026-10-08 20:03:16"
+    },
+    {
+      "id": 4,
+      "mapId": 2,
+      "mapName": "二楼会议室地图",
+      "pointName": "会议室门口",
+      "x": 2.0,
+      "y": 1.0,
+      "angle": 270.0,
+      "stayTime": 20,
+      "content": "这里是二楼会议室，可容纳 30 人会议。",
+      "audioUrl": "",
+      "status": 0,
+      "sort": 1,
+      "createTime": "2026-10-05 15:00:00",
+      "updateTime": "2026-10-08 20:09:51"
+    }
+  ]
+}

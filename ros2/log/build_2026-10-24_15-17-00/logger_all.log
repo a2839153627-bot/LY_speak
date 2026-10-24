@@ -1,0 +1,192 @@
+[0.083s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.083s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71a079c2d4e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a079d326b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a079d326b0>>, mixin_verb=('build',))
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/smart/LY_speak_ws/ros2'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(guide_voice) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'guide_voice' with type 'ros.ament_python' and name 'guide_voice'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(insp_interfaces) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'insp_interfaces' with type 'ros.catkin' and name 'insp_interfaces'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(ly_speak_mission) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'ly_speak_mission' with type 'ros.ament_python' and name 'ly_speak_mission'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'insp_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'insp_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/smart/LY_speak_ws/ros2/build/insp_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/smart/LY_speak_ws/ros2/install/insp_interfaces', 'merge_install': False, 'path': '/home/smart/LY_speak_ws/ros2/insp_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'guide_voice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'guide_voice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/smart/LY_speak_ws/ros2/build/guide_voice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/smart/LY_speak_ws/ros2/install/guide_voice', 'merge_install': False, 'path': '/home/smart/LY_speak_ws/ros2/guide_voice', 'symlink_install': True, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'ly_speak_mission' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'ly_speak_mission' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/smart/LY_speak_ws/ros2/install/ly_speak_mission', 'merge_install': False, 'path': '/home/smart/LY_speak_ws/ros2/ly_speak_mission', 'symlink_install': True, 'test_result_base': None}
+[0.191s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.192s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/smart/LY_speak_ws/ros2/insp_interfaces' with build type 'catkin'
+[0.193s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/smart/LY_speak_ws/ros2/insp_interfaces'
+[0.194s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces': /usr/bin/cmake --build /home/smart/LY_speak_ws/ros2/build/insp_interfaces -- -j16 -l16
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces' returned '0': /usr/bin/cmake --build /home/smart/LY_speak_ws/ros2/build/insp_interfaces -- -j16 -l16
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces': /usr/bin/cmake --install /home/smart/LY_speak_ws/ros2/build/insp_interfaces
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/smart/LY_speak_ws/ros2/build/insp_interfaces' returned '0': /usr/bin/cmake --install /home/smart/LY_speak_ws/ros2/build/insp_interfaces
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'ros_package_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ros_package_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ros_package_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ros_package_path.sh'
+[0.532s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages'
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'catkin_pythonpath')
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/catkin_pythonpath.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/catkin_pythonpath.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/catkin_pythonpath.sh'
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'pkg_config_path')
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path.sh'
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'pkg_config_path_multiarch')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path_multiarch.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path_multiarch.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/pkg_config_path_multiarch.sh'
+[0.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(insp_interfaces)
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces' for CMake module files
+[0.540s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces' for CMake config files
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'cmake_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/cmake_prefix_path.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/cmake_prefix_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/cmake_prefix_path.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('insp_interfaces', 'ld_library_path_lib')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ld_library_path_lib.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ld_library_path_lib.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/hook/ld_library_path_lib.sh'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/bin'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig/insp_interfaces.pc'
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/python3.10/site-packages'
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/bin'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.sh'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.bash'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/insp_interfaces/package.zsh'
+[0.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share/colcon-core/packages/insp_interfaces)
+[0.548s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/smart/LY_speak_ws/ros2/guide_voice' with build type 'ament_python'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('guide_voice', 'ament_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/hook/ament_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/hook/ament_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/guide_voice/share/guide_voice/hook/ament_prefix_path.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.550s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/smart/LY_speak_ws/ros2/ly_speak_mission' with build type 'ament_python'
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ly_speak_mission', 'ament_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/share/ly_speak_mission/hook/ament_prefix_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/share/ly_speak_mission/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/share/ly_speak_mission/hook/ament_prefix_path.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/smart/LY_speak_ws/ros2/guide_voice'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/smart/LY_speak_ws/ros2/ly_speak_mission'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.047s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: easy_install, dist_info, build_scripts, build_ext, install_egg_info, upload, bdist_wheel, install_data, symlink_data, install_lib, bdist, build_clib, install, bdist_dumb, test, sdist, update_catalog, build, develop, saveopts, alias, clean, install_headers, rotate, extract_messages, init_catalog, install_scripts, bdist_rpm, egg_info, upload_docs, bdist_egg, compile_catalog, check, setopt, register, build_py
+[1.085s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: easy_install, dist_info, build_scripts, build_ext, install_egg_info, upload, bdist_wheel, install_data, symlink_data, install_lib, bdist, build_clib, install, bdist_dumb, test, sdist, update_catalog, build, develop, saveopts, alias, clean, install_headers, rotate, extract_messages, init_catalog, install_scripts, bdist_rpm, egg_info, upload_docs, bdist_egg, compile_catalog, check, setopt, register, build_py
+[1.230s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --no-find-links, --version, --always-unzip, --upgrade, --site-dirs, --no-user-cfg, --verbose, --egg-path, --no-deps, --optimize, --zip-ok, --build-directory, --dry-run, --exclude-scripts, --editable, --index-url, --local-snapshots-ok, --help, --record, --uninstall, --user, --multi-version, --force-installation-into-system-dir, --prefix, --always-copy, --script-dir, --quiet, --install-layout, --find-links, --install-dir
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/smart/LY_speak_ws/ros2/build/guide_voice': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/guide_voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/guide_voice/build --no-deps symlink_data
+[1.263s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --allow-hosts, --no-find-links, --version, --always-unzip, --upgrade, --site-dirs, --no-user-cfg, --verbose, --egg-path, --no-deps, --optimize, --zip-ok, --build-directory, --dry-run, --exclude-scripts, --editable, --index-url, --local-snapshots-ok, --help, --record, --uninstall, --user, --multi-version, --force-installation-into-system-dir, --prefix, --always-copy, --script-dir, --quiet, --install-layout, --find-links, --install-dir
+[1.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build --no-deps symlink_data
+[1.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/smart/LY_speak_ws/ros2/build/guide_voice' returned '1': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/guide_voice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/guide_voice/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/guide_voice/build --no-deps symlink_data
+[1.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.497s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/smart/LY_speak_ws/ros2/install/local_setup.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/smart/LY_speak_ws/ros2/install/_local_setup_util_ps1.py'
+[1.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/smart/LY_speak_ws/ros2/install/setup.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/smart/LY_speak_ws/ros2/install/local_setup.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/smart/LY_speak_ws/ros2/install/_local_setup_util_sh.py'
+[1.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/smart/LY_speak_ws/ros2/install/setup.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/smart/LY_speak_ws/ros2/install/local_setup.bash'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/smart/LY_speak_ws/ros2/install/setup.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/smart/LY_speak_ws/ros2/install/local_setup.zsh'
+[1.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/smart/LY_speak_ws/ros2/install/setup.zsh'

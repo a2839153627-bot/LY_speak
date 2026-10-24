@@ -1,0 +1,7 @@
+{
+  "package_name": "insp_interfaces",
+  "non_idl_tuples": [
+    "/home/smart/LY_speak_ws/ros2/insp_interfaces:srv/RecognizeInspection.srv",
+    "/home/smart/LY_speak_ws/ros2/insp_interfaces:srv/Speak.srv"
+  ]
+}

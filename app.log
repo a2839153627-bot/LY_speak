@@ -1,0 +1,21 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.29:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 589-151-901
+127.0.0.1 - - [24/Oct/2026 14:14:09] "GET /api/plan/list?status=1 HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 14:56:17] "GET /api/home/overview HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 15:26:14] "GET /api/home/overview HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 15:45:26] "GET /api/home/overview HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 16:04:37] "GET /api/home/overview HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 16:22:18] "GET /api/map/list HTTP/1.1" 200 -
+192.168.5.20 - - [24/Oct/2026 16:22:18] "GET /api/plan/list?planName=&mapId=&status= HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 16:27:51] "GET /api/plan/1 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 16:27:51] "GET /api/guide/byPlan/1 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 16:27:51] "GET /api/map/1 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 16:27:51] "GET /api/map/list HTTP/1.1" 200 -

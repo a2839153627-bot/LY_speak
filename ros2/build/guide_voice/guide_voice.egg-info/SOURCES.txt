@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/tts.default.yaml
+guide_voice.egg-info/PKG-INFO
+guide_voice.egg-info/SOURCES.txt
+guide_voice.egg-info/dependency_links.txt
+guide_voice.egg-info/entry_points.txt
+guide_voice.egg-info/requires.txt
+guide_voice.egg-info/top_level.txt
+guide_voice.egg-info/zip-safe
+launch/guide_voice.launch.py
+resource/guide_voice
+voice/__init__.py
+voice/nodes/__init__.py
+voice/nodes/tts_python_node.py
+voice/nodes/tts_sherpa_node.py

@@ -1,0 +1,17 @@
+[0.951s] Invoking command in '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build --no-deps symlink_data
+[1.124s] running develop
+[1.235s] running egg_info
+[1.235s] writing ly_speak_mission.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ly_speak_mission.egg-info/dependency_links.txt
+[1.235s] writing entry points to ly_speak_mission.egg-info/entry_points.txt
+[1.235s] writing requirements to ly_speak_mission.egg-info/requires.txt
+[1.235s] writing top-level names to ly_speak_mission.egg-info/top_level.txt
+[1.237s] reading manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+[1.237s] writing manifest file 'ly_speak_mission.egg-info/SOURCES.txt'
+[1.238s] running build_ext
+[1.238s] Creating /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages/ly-speak-mission.egg-link (link to .)
+[1.239s] Installing guide_mission_node script to /home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/ly_speak_mission
+[1.239s] 
+[1.239s] Installed /home/smart/LY_speak_ws/ros2/build/ly_speak_mission
+[1.239s] running symlink_data
+[1.260s] Invoked command in '/home/smart/LY_speak_ws/ros2/build/ly_speak_mission' returned '0': CMAKE_PREFIX_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces LD_LIBRARY_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/lib/pkgconfig PYTHONPATH=/home/smart/LY_speak_ws/ros2/build/ly_speak_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smart/LY_speak_ws/ros2/install/ly_speak_mission/lib/python3.10/site-packages:/home/smart/LY_speak_ws/ros2/install/insp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/smart/LY_speak_ws/ros2/install/insp_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/smart/LY_speak_ws/ros2/build/ly_speak_mission/build --no-deps symlink_data

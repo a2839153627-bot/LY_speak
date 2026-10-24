@@ -1,0 +1,9 @@
+source;share/guide_voice/hook/pythonpath.ps1
+source;share/guide_voice/hook/pythonpath.dsv
+source;share/guide_voice/hook/pythonpath.sh
+source;share/guide_voice/hook/ament_prefix_path.ps1
+source;share/guide_voice/hook/ament_prefix_path.dsv
+source;share/guide_voice/hook/ament_prefix_path.sh
+source;../../build/guide_voice/share/guide_voice/hook/pythonpath_develop.ps1
+source;../../build/guide_voice/share/guide_voice/hook/pythonpath_develop.dsv
+source;../../build/guide_voice/share/guide_voice/hook/pythonpath_develop.sh

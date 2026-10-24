@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>insp_interfaces</name>
+  <version>0.1.0</version>
+  <description>ROS interfaces for inspection algorithms.</description>
+  <maintainer email="nx-ros2@todo.todo">nx-ros2</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>

@@ -1,0 +1,9 @@
+# Inspection-point recognition. Owned by smart_robot_algorithms.
+string algorithm
+string image_path
+string output_dir
+string resource_dir
+string task_dir
+int32 point_id
+string point_name
+string node_type
